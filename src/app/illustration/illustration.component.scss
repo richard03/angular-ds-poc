@@ -1,0 +1,8 @@
+.ds-illustration {
+	margin: 0 var(--size-4);
+
+	&__image {
+		box-sizing: border-box;
+		max-width: 100%;
+	}
+}

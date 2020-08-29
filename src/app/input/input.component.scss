@@ -1,0 +1,14 @@
+.ds-input {
+	margin: 0 var(--size-4);
+
+
+	&__control {
+		box-sizing: border-box;
+		width: 100%;
+		padding: var(--size-4);
+	}
+
+	&__label {
+		font-size: var(--font-size-1);
+	}
+}

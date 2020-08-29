@@ -1,0 +1,44 @@
+$screen-md: 768px;
+$screen-lg: 1024px;
+
+.layout {
+	margin: auto;
+
+	&--w-8 {
+		width: 320px;
+	}
+	&--w-12 {
+		width: 480px;
+	}
+	&--w-16 {
+		width: 640px;
+	}
+}
+
+@media (min-width: $screen-md) and (max-width: $screen-lg) {
+	.layout {
+		&--md-w-8 {
+			width: 320px;
+		}
+		&--md-w-12 {
+			width: 480px;
+		}
+		&--md-w-16 {
+			width: 640px;
+		}
+	}
+}
+@media (min-width: $screen-lg) {
+	.layout {
+		&--lg-w-8 {
+			width: 320px;
+		}
+		&--lg-w-12 {
+			width: 480px;
+		}
+		&--lg-w-16 {
+			width: 640px;
+		}
+
+	}
+}

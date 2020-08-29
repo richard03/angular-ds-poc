@@ -1,0 +1,13 @@
+
+
+.ds-text {
+	margin: 0 var(--size-4);
+
+
+	&--size-medium {
+		font-size: var(--font-size-2);
+	}
+	&--size-big {
+		font-size: var(--font-size-3);
+	}
+}

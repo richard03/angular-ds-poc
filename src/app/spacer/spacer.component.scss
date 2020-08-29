@@ -1,0 +1,12 @@
+
+.ds-spacer {
+	&--small {
+		height: var(--size-3);
+	}
+	&--medium {
+		height: var(--size-5);
+	}
+	&--big {
+		height: var(--size-7);
+	}
+}
